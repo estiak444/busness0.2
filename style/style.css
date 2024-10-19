@@ -1,0 +1,157 @@
+.header-container{
+    background-image: url(../images/base.png);
+    
+}
+
+
+
+.menu-container{
+   
+
+    display: flex;
+    justify-content: space-between ;
+}
+.nev-container{
+    display: flex;
+}
+
+
+ul a{
+    text-decoration: none;
+   
+    
+}
+ul>li{
+    list-style: none;
+    
+
+}
+.nav-menu{
+    display: flex;
+    gap: 35px;}
+
+   .home{
+    color: black;
+    font-weight: bold;
+   }
+   .others{
+    color: #656464;
+   }
+  .serch-box{
+    display: flex;
+    align-items: center;
+  }
+   .btn-one{
+    background-color: #217bf4;
+    height: 50px;
+    width: 123px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    margin-left: 10px;
+   }
+   .nev-input{
+    height: 32px;
+    width: 150px;
+   }
+   .hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   }
+   .netbook{
+    background-color: #e9f2fe;
+    color: #217bf4;
+    height: 36px;
+    width: 200px;
+   text-align: center;
+    border-radius: 15px;
+   
+   }
+   .coment{
+    color: #0a093d;
+    font-size: 56px;
+    line-height: 66px;
+   }
+   .hero-pera{
+    color: #656464;
+   }
+   .btn-two{
+    height: 50px;
+    width: 123px;
+    color: #217bf4;
+    background-color: transparent;
+    border-radius: 15px;
+   }
+   /* main-notebook */
+
+   .main-notebook{
+    margin-top: 100px;
+   }
+   .notebook-container{
+    display: flex;
+    justify-content: space-around;
+
+   }
+   .notebook-pera{
+    color: #217bf4;
+   }
+   .notebook-head{
+    font-size: 40px;
+    color: #0a093d;
+   }
+   .notebook-pera-one{
+    color: #656464;
+    margin-top: 10px;
+   }
+   .main-img{
+    display: flex;
+   }
+   .first-img{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    
+    
+   }
+   /* comment section css */
+   .comment-p{
+    color: #0a093d;
+   }
+   /* community container */
+   .community-container{
+    margin-top: 50px;
+   }
+   .community{
+    margin: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 44px;
+    margin-top: 50px;
+
+   }
+   .member{
+    display: flex;
+    box-shadow: 10px 5px 10px black;
+    padding: 50px 40px;
+    border-radius: 15px;
+   }
+   /* active members */
+   .active-member-container{
+    margin-top: 100px;
+   }
+   .active-members{
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    background-color: #f2f7ff;
+    padding: 28px 58px;
+    width: 350px;
+   }
+   .application-container  {display: flex;
+     align-items: center; 
+     justify-content: space-around; 
+     background-color: #e5f0fd;
+     margin-top: 50px;
+
+   }   
